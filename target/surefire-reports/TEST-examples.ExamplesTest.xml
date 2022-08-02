@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="19.339" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\khidki\New folder\ApiTesting\target\test-classes;E:\khidki\New folder\ApiTesting\target\classes;C:\Users\kd\.m2\repository\com\intuit\karate\karate-junit5\1.2.0\karate-junit5-1.2.0.jar;C:\Users\kd\.m2\repository\com\intuit\karate\karate-core\1.2.0\karate-core-1.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\kd\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\kd\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\kd\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\kd\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\kd\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\kd\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\kd\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\kd\.m2\repository\com\linecorp\armeria\armeria\1.13.4\armeria-1.13.4.jar;C:\Users\kd\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\kd\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\kd\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\kd\.m2\repository\io\micrometer\micrometer-core\1.7.6\micrometer-core-1.7.6.jar;C:\Users\kd\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\kd\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\kd\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\kd\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.44.Final\netty-tcnative-boringssl-static-2.0.44.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\kd\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.6.0\brotli4j-1.6.0.jar;C:\Users\kd\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.6.0\native-windows-x86_64-1.6.0.jar;C:\Users\kd\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kd\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kd\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kd\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\kd\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\kd\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\kd\.m2\repository\org\antlr\antlr4-runtime\4.9.2\antlr4-runtime-4.9.2.jar;C:\Users\kd\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\kd\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\kd\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\kd\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\kd\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\kd\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\kd\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\kd\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\kd\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\kd\.m2\repository\io\github\classgraph\classgraph\4.8.108\classgraph-4.8.108.jar;C:\Users\kd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\kd\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\kd\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kd\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\kd\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\kd\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\kd\AppData\Local\Temp\surefire3814644731340920171\surefirebooter2801201955329081250.jar C:\Users\kd\AppData\Local\Temp\surefire3814644731340920171 2022-08-02T00-37-24_587-jvmRun1 surefire6486908832019521588tmp surefire_03447459875051144912tmp"/>
+    <property name="surefire.test.class.path" value="E:\khidki\New folder\ApiTesting\target\test-classes;E:\khidki\New folder\ApiTesting\target\classes;C:\Users\kd\.m2\repository\com\intuit\karate\karate-junit5\1.2.0\karate-junit5-1.2.0.jar;C:\Users\kd\.m2\repository\com\intuit\karate\karate-core\1.2.0\karate-core-1.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\kd\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\kd\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\kd\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\kd\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\kd\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\kd\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\kd\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\kd\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\kd\.m2\repository\com\linecorp\armeria\armeria\1.13.4\armeria-1.13.4.jar;C:\Users\kd\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\kd\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\kd\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\kd\.m2\repository\io\micrometer\micrometer-core\1.7.6\micrometer-core-1.7.6.jar;C:\Users\kd\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\kd\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\kd\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\kd\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\kd\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.44.Final\netty-tcnative-boringssl-static-2.0.44.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\kd\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\kd\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.6.0\brotli4j-1.6.0.jar;C:\Users\kd\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.6.0\native-windows-x86_64-1.6.0.jar;C:\Users\kd\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kd\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kd\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kd\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\kd\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\kd\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\kd\.m2\repository\org\antlr\antlr4-runtime\4.9.2\antlr4-runtime-4.9.2.jar;C:\Users\kd\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\kd\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\kd\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\kd\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\kd\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\kd\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\kd\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\kd\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\kd\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\kd\.m2\repository\io\github\classgraph\classgraph\4.8.108\classgraph-4.8.108.jar;C:\Users\kd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\kd\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\kd\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kd\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\kd\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\kd\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kd"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="basedir" value="E:\khidki\New folder\ApiTesting"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kd\AppData\Local\Temp\surefire3814644731340920171\surefirebooter2801201955329081250.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="kd"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kd\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kd\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="E:\khidki\New folder\ApiTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ffmpeg\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\kd\AppData\Local\Android\Sdk\platform-tools;C:\Users\kd\AppData\Local\Android\Sdk\tools\bin;C:\Users\kd\AppData\Local\Android\Sdk\tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\kd\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\kd\AppData\Local\Programs\Python\Python310\;C:\Users\kd\AppData\Local\Microsoft\WindowsApps;C:\Users\kd\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\kd\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Users\kd\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\kd\AppData\Local\Programs\Python\Python310\;C:\Users\kd\AppData\Local\Microsoft\WindowsApps;C:\Users\kd\AppData\Roaming\npm;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\kd\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="19.326">
+    <failure message="expected: &lt;1&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
+]]></failure>
+    <system-out><![CDATA[00:37:28.179 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:37:28.187 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1659380848185
+00:37:31.511 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+00:37:31.963 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://qa-api.atmax.co/api/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 96
+1 > Host: qa-api.atmax.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+{"email":"atmax@atmax.co","password":"Atmax@123","url":"https:\/\/atmax-qa.atmax.co\/incentmax"}
+
+00:37:35.036 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 3071
+1 < 200
+1 < Server: nginx/1.12.2
+1 < Date: Mon, 01 Aug 2022 19:07:30 GMT
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Content-Security-Policy: default-src 'self'
+1 < X-WebKit-CSP: default-src 'self'
+1 < x-frame-options: SAMEORIGIN
+1 < x-frame-options: SAMEORIGIN
+{"acl_url":{"process":"admin/process","setup":"admin/setup","dashboard":"admin/dashboard","team_dashboard":"admin/team-dashboard","my_dashboard":"admin/my-dashboard","analytics":"admin/analytics","reporting":"admin/reporting","promotion_list":"admin/promotion-list","bench_marking":"admin/bench-marking","team":"admin/team","team_snapshot":"admin/team-snapshot","salary_structure":"admin/salary-structure","dummy_my_dashboard":"admin/dummy-my-dashboard","dummy_team_dashboard":"admin/dummy-team-dashboard","dummy_admin_dashboard":"admin/dummy-admin-dashboard"},"userData":{"logo":"organization/logo/qa-logo-transsssss.png","id":"62c7f9a167e81a1e49b25a8c","fullname":"Atmax","orgId":"61b31ef589e4143c447c1977","username":"atmax@atmax.co","employee_code":""},"currency":"?","username":"atmax@atmax.co","token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5MzgwODQ4NTM2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6Ijc3MWRiNWVhLTE0MTAtNDUzOS05NzYyLTE3NzdmZmFlNzZlZSIsImlhdCI6MTY1OTM4MDg0OCwiZXhwIjoxNjU5Mzg4MDQ4fQ.RknAKBnhPowqoPUX97g8L-bmAqqQrmCwXhXKU6L8BIg","refreshToken":"eab81c45-4efe-4c75-bb5e-a4f5b9a65435"}
+
+00:37:35.053 [pool-1-thread-1] INFO  com.intuit.karate - [print] Response is eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5MzgwODQ4NTM2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6Ijc3MWRiNWVhLTE0MTAtNDUzOS05NzYyLTE3NzdmZmFlNzZlZSIsImlhdCI6MTY1OTM4MDg0OCwiZXhwIjoxNjU5Mzg4MDQ4fQ.RknAKBnhPowqoPUX97g8L-bmAqqQrmCwXhXKU6L8BIg 
+00:37:35.091 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://qa-api.atmax.co/api/v1/role/auto_role/fields
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5MzgwODQ4NTM2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6Ijc3MWRiNWVhLTE0MTAtNDUzOS05NzYyLTE3NzdmZmFlNzZlZSIsImlhdCI6MTY1OTM4MDg0OCwiZXhwIjoxNjU5Mzg4MDQ4fQ.RknAKBnhPowqoPUX97g8L-bmAqqQrmCwXhXKU6L8BIg
+2 > Host: qa-api.atmax.co
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+2 > Accept-Encoding: gzip,deflate
+
+
+00:37:37.176 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2084
+2 < 200
+2 < Server: nginx/1.12.2
+2 < Date: Mon, 01 Aug 2022 19:07:33 GMT
+2 < Content-Type: application/json;charset=UTF-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-Content-Security-Policy: default-src 'self'
+2 < X-WebKit-CSP: default-src 'self'
+2 < x-frame-options: SAMEORIGIN
+2 < x-frame-options: SAMEORIGIN
+{"data":{"fields":["L1 Manager","HR Manager","Role1","Admin1","Role2","Admin2","Role3","Admin3","Role4","Admin4","Role5","Admin5"]},"message":"Successfully Executed","statusCode":200,"timestamp":"2022-08-01 07:07:33","errors":[]}
+
+00:37:37.270 [pool-1-thread-1] INFO  com.intuit.karate - [print] Response is [
+  "L1 Manager",
+  "HR Manager",
+  "Role1",
+  "Admin1",
+  "Role2",
+  "Admin2",
+  "Role3",
+  "Admin3",
+  "Role4",
+  "Admin4",
+  "Role5",
+  "Admin5"
+]
+ 
+00:37:37.281 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > POST https://qa-api.atmax.co/api/v1/role/auto_role/field/Admin3
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5MzgwODQ4NTM2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6Ijc3MWRiNWVhLTE0MTAtNDUzOS05NzYyLTE3NzdmZmFlNzZlZSIsImlhdCI6MTY1OTM4MDg0OCwiZXhwIjoxNjU5Mzg4MDQ4fQ.RknAKBnhPowqoPUX97g8L-bmAqqQrmCwXhXKU6L8BIg
+3 > Host: qa-api.atmax.co
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+3 > Accept-Encoding: gzip,deflate
+
+
+00:37:39.637 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2353
+3 < 201
+3 < Server: nginx/1.12.2
+3 < Date: Mon, 01 Aug 2022 19:07:35 GMT
+3 < Content-Type: application/json;charset=UTF-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < X-Content-Type-Options: nosniff
+3 < X-XSS-Protection: 1; mode=block
+3 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+3 < Pragma: no-cache
+3 < Expires: 0
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-Content-Security-Policy: default-src 'self'
+3 < X-WebKit-CSP: default-src 'self'
+3 < x-frame-options: SAMEORIGIN
+3 < x-frame-options: SAMEORIGIN
+{"data":{"role":{"id":"62e8247767e81a5b8cfeed73","role":"Admin3","enabled":true,"type":"Both Automatically"}},"message":"Role created successfully","statusCode":201,"timestamp":"2022-08-01 07:07:35","errors":[]}
+
+00:37:39.642 [pool-1-thread-1] INFO  com.intuit.karate - [print] role created and response is Role created successfully 
+00:37:39.645 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+4 > GET https://qa-api.atmax.co/api/v1/role
+4 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5MzgwODQ4NTM2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6Ijc3MWRiNWVhLTE0MTAtNDUzOS05NzYyLTE3NzdmZmFlNzZlZSIsImlhdCI6MTY1OTM4MDg0OCwiZXhwIjoxNjU5Mzg4MDQ4fQ.RknAKBnhPowqoPUX97g8L-bmAqqQrmCwXhXKU6L8BIg
+4 > Host: qa-api.atmax.co
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+4 > Accept-Encoding: gzip,deflate
+
+
+00:37:41.791 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2144
+4 < 200
+4 < Server: nginx/1.12.2
+4 < Date: Mon, 01 Aug 2022 19:07:37 GMT
+4 < Content-Type: application/json;charset=UTF-8
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < X-Content-Type-Options: nosniff
+4 < X-XSS-Protection: 1; mode=block
+4 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+4 < Pragma: no-cache
+4 < Expires: 0
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-Frame-Options: SAMEORIGIN
+4 < X-Content-Security-Policy: default-src 'self'
+4 < X-WebKit-CSP: default-src 'self'
+4 < x-frame-options: SAMEORIGIN
+4 < x-frame-options: SAMEORIGIN
+{"data":{"roles":[{"id":"61b327a989e41403bdcd26f4","role":"EMPLOYEE","enabled":true},{"id":"61b327a989e41403bdcd26f5","role":"L1MANAGER","enabled":true},{"id":"61b327a989e41403bdcd26f6","role":"L2MANAGER","enabled":true},{"id":"61b327a989e41403bdcd26f7","role":"HRMANAGER","enabled":true},{"id":"61b327a989e41403bdcd26f8","role":"REPORTING_MANAGER","enabled":true},{"id":"61b327a989e41403bdcd26f9","role":"BUSINESS_HEAD","enabled":true},{"id":"61b327a989e41403bdcd26fa","role":"ADMIN","enabled":true},{"id":"61b327a989e41403bdcd26fb","role":"ADMINMANAGER","enabled":true},{"id":"6287384511c35d30c8399803","role":"l1_manager_code","enabled":true},{"id":"62c7e5dc905c4ef5f7f51eca","role":"DUMMYROLE","enabled":true},{"id":"62c7f69387529b5d35986184","role":"Dummmy","enabled":true},{"id":"62da69a367e81a1aafdb4fb7","role":"newRole","enabled":true},{"id":"62dd798267e81a1aafdb4fb8","role":"newrole1","enabled":true},{"id":"62dd798f67e81a1aafdb4fb9","role":"newrole2","enabled":true},{"id":"62dd7a5067e81a1aafdb4fba","role":"HR Manager","enabled":true},{"id":"62dd7c7867e81a1aafdb4fbb","role":"NewStateManager","enabled":false},{"id":"62dd978667e81a1aafdb4fdc","role":"departRole1","enabled":false},{"id":"62dda20767e81a1aafdb4fe1","role":"manualRole1","enabled":true},{"id":"62ddb4d467e81a1aafdb4fe2","role":"typeOneRole","enabled":true},{"id":"62de372667e81a1aafdb4fe8","role":"L2 Manager","enabled":true},{"id":"62de3df567e81a1aafdb4fe9","role":"kuchBhi","enabled":false},{"id":"62e4f0e967e81a01fca5b5e0","role":"Admin5","enabled":true},{"id":"62e4fade67e81a01fca5b5e1","role":"Department","enabled":false},{"id":"62e4fb2767e81a01fca5b5e2","role":"Country","enabled":false},{"id":"62e4fb5967e81a01fca5b5e3","role":"Company","enabled":false},{"id":"62e5046367e81a01fca5b5e4","role":"Zone","enabled":false},{"id":"62e6514067e81a135794cdb3","role":"Location","enabled":false},{"id":"62e7167967e81a35a32a6d28","role":"Admin4","enabled":true},{"id":"62e7188b67e81a35a32a6d29","role":"Sub Department","enabled":false},{"id":"62e792b267e81a5b8cfeed5d","role":"NewStateManager1","enabled":false},{"id":"62e7945b67e81a5b8cfeed5e","role":"Entity","enabled":false},{"id":"62e796b867e81a5b8cfeed5f","role":"sarvesh","enabled":false},{"id":"62e797de67e81a5b8cfeed60","role":"sarvesh1","enabled":false},{"id":"62e7985267e81a5b8cfeed61","role":"sarvesh 2","enabled":false},{"id":"62e798d167e81a5b8cfeed62","role":"sarvesh 4","enabled":false},{"id":"62e7993867e81a5b8cfeed63","role":"sarvesh7","enabled":false},{"id":"62e799b867e81a5b8cfeed65","role":"sarvesh 9","enabled":false},{"id":"62e80c7e67e81a5b8cfeed69","role":"L1 Manager","enabled":true},{"id":"62e814fe67e81a5b8cfeed6a","role":"Role3","enabled":true},{"id":"62e819fd67e81a5b8cfeed6b","role":"Role3df","enabled":true},{"id":"62e8247767e81a5b8cfeed73","role":"Admin3","enabled":true}]},"message":"Successfully Executed","statusCode":200,"timestamp":"2022-08-01 07:07:37","errors":[]}
+
+00:37:41.800 [pool-1-thread-1] INFO  com.intuit.karate - [print] Response is [
+  {
+    "id": "61b327a989e41403bdcd26f4",
+    "role": "EMPLOYEE",
+    "enabled": true
+  },
+  {
+    "id": "61b327a989e41403bdcd26f5",
+    "role": "L1MANAGER",
+    "enabled": true
+  },
+  {
+    "id": "61b327a989e41403bdcd26f6",
+    "role": "L2MANAGER",
+    "enabled": true
+  },
+  {
+    "id": "61b327a989e41403bdcd26f7",
+    "role": "HRMANAGER",
+    "enabled": true
+  },
+  {
+    "id": "61b327a989e41403bdcd26f8",
+    "role": "REPORTING_MANAGER",
+    "enabled": true
+  },
+  {
+    "id": "61b327a989e41403bdcd26f9",
+    "role": "BUSINESS_HEAD",
+    "enabled": true
+  },
+  {
+    "id": "61b327a989e41403bdcd26fa",
+    "role": "ADMIN",
+    "enabled": true
+  },
+  {
+    "id": "61b327a989e41403bdcd26fb",
+    "role": "ADMINMANAGER",
+    "enabled": true
+  },
+  {
+    "id": "6287384511c35d30c8399803",
+    "role": "l1_manager_code",
+    "enabled": true
+  },
+  {
+    "id": "62c7e5dc905c4ef5f7f51eca",
+    "role": "DUMMYROLE",
+    "enabled": true
+  },
+  {
+    "id": "62c7f69387529b5d35986184",
+    "role": "Dummmy",
+    "enabled": true
+  },
+  {
+    "id": "62da69a367e81a1aafdb4fb7",
+    "role": "newRole",
+    "enabled": true
+  },
+  {
+    "id": "62dd798267e81a1aafdb4fb8",
+    "role": "newrole1",
+    "enabled": true
+  },
+  {
+    "id": "62dd798f67e81a1aafdb4fb9",
+    "role": "newrole2",
+    "enabled": true
+  },
+  {
+    "id": "62dd7a5067e81a1aafdb4fba",
+    "role": "HR Manager",
+    "enabled": true
+  },
+  {
+    "id": "62dd7c7867e81a1aafdb4fbb",
+    "role": "NewStateManager",
+    "enabled": false
+  },
+  {
+    "id": "62dd978667e81a1aafdb4fdc",
+    "role": "departRole1",
+    "enabled": false
+  },
+  {
+    "id": "62dda20767e81a1aafdb4fe1",
+    "role": "manualRole1",
+    "enabled": true
+  },
+  {
+    "id": "62ddb4d467e81a1aafdb4fe2",
+    "role": "typeOneRole",
+    "enabled": true
+  },
+  {
+    "id": "62de372667e81a1aafdb4fe8",
+    "role": "L2 Manager",
+    "enabled": true
+  },
+  {
+    "id": "62de3df567e81a1aafdb4fe9",
+    "role": "kuchBhi",
+    "enabled": false
+  },
+  {
+    "id": "62e4f0e967e81a01fca5b5e0",
+    "role": "Admin5",
+    "enabled": true
+  },
+  {
+    "id": "62e4fade67e81a01fca5b5e1",
+    "role": "Department",
+    "enabled": false
+  },
+  {
+    "id": "62e4fb2767e81a01fca5b5e2",
+    "role": "Country",
+    "enabled": false
+  },
+  {
+    "id": "62e4fb5967e81a01fca5b5e3",
+    "role": "Company",
+    "enabled": false
+  },
+  {
+    "id": "62e5046367e81a01fca5b5e4",
+    "role": "Zone",
+    "enabled": false
+  },
+  {
+    "id": "62e6514067e81a135794cdb3",
+    "role": "Location",
+    "enabled": false
+  },
+  {
+    "id": "62e7167967e81a35a32a6d28",
+    "role": "Admin4",
+    "enabled": true
+  },
+  {
+    "id": "62e7188b67e81a35a32a6d29",
+    "role": "Sub Department",
+    "enabled": false
+  },
+  {
+    "id": "62e792b267e81a5b8cfeed5d",
+    "role": "NewStateManager1",
+    "enabled": false
+  },
+  {
+    "id": "62e7945b67e81a5b8cfeed5e",
+    "role": "Entity",
+    "enabled": false
+  },
+  {
+    "id": "62e796b867e81a5b8cfeed5f",
+    "role": "sarvesh",
+    "enabled": false
+  },
+  {
+    "id": "62e797de67e81a5b8cfeed60",
+    "role": "sarvesh1",
+    "enabled": false
+  },
+  {
+    "id": "62e7985267e81a5b8cfeed61",
+    "role": "sarvesh 2",
+    "enabled": false
+  },
+  {
+    "id": "62e798d167e81a5b8cfeed62",
+    "role": "sarvesh 4",
+    "enabled": false
+  },
+  {
+    "id": "62e7993867e81a5b8cfeed63",
+    "role": "sarvesh7",
+    "enabled": false
+  },
+  {
+    "id": "62e799b867e81a5b8cfeed65",
+    "role": "sarvesh 9",
+    "enabled": false
+  },
+  {
+    "id": "62e80c7e67e81a5b8cfeed69",
+    "role": "L1 Manager",
+    "enabled": true
+  },
+  {
+    "id": "62e814fe67e81a5b8cfeed6a",
+    "role": "Role3",
+    "enabled": true
+  },
+  {
+    "id": "62e819fd67e81a5b8cfeed6b",
+    "role": "Role3df",
+    "enabled": true
+  },
+  {
+    "id": "62e8247767e81a5b8cfeed73",
+    "role": "Admin3",
+    "enabled": true
+  }
+]
+ 
+00:37:41.814 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+5 > PUT https://qa-api.atmax.co/api/v1/role/auto_role/field/sdfsdrt/id/62e80c7e67e81a5b8cfeed69
+5 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5MzgwODQ4NTM2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6Ijc3MWRiNWVhLTE0MTAtNDUzOS05NzYyLTE3NzdmZmFlNzZlZSIsImlhdCI6MTY1OTM4MDg0OCwiZXhwIjoxNjU5Mzg4MDQ4fQ.RknAKBnhPowqoPUX97g8L-bmAqqQrmCwXhXKU6L8BIg
+5 > Host: qa-api.atmax.co
+5 > Connection: Keep-Alive
+5 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+5 > Accept-Encoding: gzip,deflate
+
+
+00:37:43.614 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1800
+5 < 400
+5 < Server: nginx/1.12.2
+5 < Date: Mon, 01 Aug 2022 19:07:39 GMT
+5 < Content-Type: application/json;charset=UTF-8
+5 < Transfer-Encoding: chunked
+5 < Connection: keep-alive
+5 < X-Content-Type-Options: nosniff
+5 < X-XSS-Protection: 1; mode=block
+5 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+5 < Pragma: no-cache
+5 < Expires: 0
+5 < X-Frame-Options: SAMEORIGIN
+5 < X-Content-Security-Policy: default-src 'self'
+5 < X-WebKit-CSP: default-src 'self'
+{"message":"Cannot edit the role!","statusCode":400,"timestamp":"2022-08-01 07:07:39","errors":[]}
+
+00:37:43.618 [pool-1-thread-1] INFO  com.intuit.karate - [print] Response is Cannot edit the role! 
+---------------------------------------------------------
+feature: classpath:examples/users/users.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 12.0131
+---------------------------------------------------------
+
+00:37:45.206 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+Karate version: 1.2.0
+======================================================
+elapsed:  18.40 | threads:    5 | thread time: 12.01 
+features:     1 | skipped:    0 | efficiency: 0.13
+scenarios:    1 | passed:     1 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.2.0
+file:///E:/khidki/New%20folder/ApiTesting/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

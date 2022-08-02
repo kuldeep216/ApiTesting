@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("610fc0a7-c17e-47a2-a325-994456156743",{name:"kd"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>examples.users.users</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-01 11:11:26 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>get Bearer token</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">examples/users/users.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">sample karate test script</span>
+          <span class="feature-description">for help, see: https://github.com/intuit/karate/wiki/IDE-Support</span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">get Bearer token</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>5452</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://qa-api.atmax.co/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">23:11:20.536 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;email&quot;:&quot;atmax@atmax.co&quot;,&quot;password&quot;:&quot;Atmax@123&quot;,&quot;url&quot;:&quot;https://atmax-qa.atmax.co/incentmax&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">74</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3288</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">23:11:21.065 request:
+1 &gt; POST https://qa-api.atmax.co/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 96
+1 &gt; Host: qa-api.atmax.co
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;atmax@atmax.co&quot;,&quot;password&quot;:&quot;Atmax@123&quot;,&quot;url&quot;:&quot;https:\/\/atmax-qa.atmax.co\/incentmax&quot;}
+
+23:11:23.984 response time in milliseconds: 2915
+1 &lt; 200
+1 &lt; Server: nginx/1.12.2
+1 &lt; Date: Mon, 01 Aug 2022 17:41:19 GMT
+1 &lt; Content-Type: application/json;charset=UTF-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Pragma: no-cache
+1 &lt; Expires: 0
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Content-Security-Policy: default-src &#39;self&#39;
+1 &lt; X-WebKit-CSP: default-src &#39;self&#39;
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-frame-options: SAMEORIGIN
+{&quot;acl_url&quot;:{&quot;process&quot;:&quot;admin/process&quot;,&quot;setup&quot;:&quot;admin/setup&quot;,&quot;dashboard&quot;:&quot;admin/dashboard&quot;,&quot;team_dashboard&quot;:&quot;admin/team-dashboard&quot;,&quot;my_dashboard&quot;:&quot;admin/my-dashboard&quot;,&quot;analytics&quot;:&quot;admin/analytics&quot;,&quot;reporting&quot;:&quot;admin/reporting&quot;,&quot;promotion_list&quot;:&quot;admin/promotion-list&quot;,&quot;bench_marking&quot;:&quot;admin/bench-marking&quot;,&quot;team&quot;:&quot;admin/team&quot;,&quot;team_snapshot&quot;:&quot;admin/team-snapshot&quot;,&quot;salary_structure&quot;:&quot;admin/salary-structure&quot;,&quot;dummy_my_dashboard&quot;:&quot;admin/dummy-my-dashboard&quot;,&quot;dummy_team_dashboard&quot;:&quot;admin/dummy-team-dashboard&quot;,&quot;dummy_admin_dashboard&quot;:&quot;admin/dummy-admin-dashboard&quot;},&quot;userData&quot;:{&quot;logo&quot;:&quot;organization/logo/qa-logo-transsssss.png&quot;,&quot;id&quot;:&quot;62c7f9a167e81a1e49b25a8c&quot;,&quot;fullname&quot;:&quot;Atmax&quot;,&quot;orgId&quot;:&quot;61b31ef589e4143c447c1977&quot;,&quot;username&quot;:&quot;atmax@atmax.co&quot;,&quot;employee_code&quot;:&quot;&quot;},&quot;currency&quot;:&quot;₹&quot;,&quot;username&quot;:&quot;atmax@atmax.co&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5Mzc1Njc3NjE2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6IjlhY2E5YWNiLTRhY2ItNDRjNi04ODVkLTdiZjA1M2EwNWFkOCIsImlhdCI6MTY1OTM3NTY3NywiZXhwIjoxNjU5MzgyODc3fQ.uS_mzFKna7fUm3YAulz1i1JLdtw800U4HcxJzmHvG2E&quot;,&quot;refreshToken&quot;:&quot;3b6b7305-5d65-487a-b230-981d56dab83f&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># And match response == &#39;success&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;Response is&#39;, response.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">23:11:24.001 [print] Response is eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5Mzc1Njc3NjE2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6IjlhY2E5YWNiLTRhY2ItNDRjNi04ODVkLTdiZjA1M2EwNWFkOCIsImlhdCI6MTY1OTM3NTY3NywiZXhwIjoxNjU5MzgyODc3fQ.uS_mzFKna7fUm3YAulz1i1JLdtw800U4HcxJzmHvG2E 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bToken = response.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Test For Roles--&gt;Fields API</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;v1/role/auto_role/fields&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + bToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2053</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.21">23:11:24.027 request:
+2 &gt; GET https://qa-api.atmax.co/api/v1/role/auto_role/fields
+2 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5Mzc1Njc3NjE2LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6IjlhY2E5YWNiLTRhY2ItNDRjNi04ODVkLTdiZjA1M2EwNWFkOCIsImlhdCI6MTY1OTM3NTY3NywiZXhwIjoxNjU5MzgyODc3fQ.uS_mzFKna7fUm3YAulz1i1JLdtw800U4HcxJzmHvG2E
+2 &gt; Host: qa-api.atmax.co
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+23:11:26.077 response time in milliseconds: 2049
+2 &lt; 200
+2 &lt; Server: nginx/1.12.2
+2 &lt; Date: Mon, 01 Aug 2022 17:41:22 GMT
+2 &lt; Content-Type: application/json;charset=UTF-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 &lt; Pragma: no-cache
+2 &lt; Expires: 0
+2 &lt; X-Frame-Options: SAMEORIGIN
+2 &lt; X-Frame-Options: SAMEORIGIN
+2 &lt; X-Content-Security-Policy: default-src &#39;self&#39;
+2 &lt; X-WebKit-CSP: default-src &#39;self&#39;
+2 &lt; x-frame-options: SAMEORIGIN
+2 &lt; x-frame-options: SAMEORIGIN
+{&quot;data&quot;:{&quot;fields&quot;:[&quot;L1 Manager&quot;,&quot;HR Manager&quot;,&quot;Role1&quot;,&quot;Admin1&quot;,&quot;Role2&quot;,&quot;Admin2&quot;,&quot;Role3&quot;,&quot;Admin3&quot;,&quot;Role4&quot;,&quot;Admin4&quot;,&quot;Role5&quot;,&quot;Admin5&quot;]},&quot;message&quot;:&quot;Successfully Executed&quot;,&quot;statusCode&quot;:200,&quot;timestamp&quot;:&quot;2022-08-01 05:41:22&quot;,&quot;errors&quot;:[]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># And print &#39;Response is&#39;, response.data.fields.map(x =&gt; x)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref failed">25</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>myArray = []</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">23:11:26.079 classpath:examples/users/users.feature:25
+* myArray = []
+no step-definition method match found for: myArray = []
+classpath:examples/users/users.feature:25
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>eval for(var i=0; i&lt;response.data.fields.length;i++) myArray.add(response.data.fields[i]) print myArray[i]</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

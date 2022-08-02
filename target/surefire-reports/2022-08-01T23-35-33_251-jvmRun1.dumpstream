@@ -1,0 +1,165 @@
+# Created at 2022-08-01T23:35:37.338
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2022-08-01T23:35:40.365
+Unexpected IOException with stream: 23:35:40.361 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2022-08-01T23:35:41.032
+Unexpected IOException with stream: 23:35:41.031 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://qa-api.atmax.co/api/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 96
+1 > Host: qa-api.atmax.co
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+{"email":"atmax@atmax.co","password":"Atmax@123","url":"https:\/\/atmax-qa.atmax.co\/incentmax"}
+
+
+
+# Created at 2022-08-01T23:35:43.976
+Unexpected IOException with stream: 23:35:43.975 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2904
+1 < 200
+1 < Server: nginx/1.12.2
+1 < Date: Mon, 01 Aug 2022 18:05:39 GMT
+1 < Content-Type: application/json;charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Content-Security-Policy: default-src 'self'
+1 < X-WebKit-CSP: default-src 'self'
+1 < x-frame-options: SAMEORIGIN
+1 < x-frame-options: SAMEORIGIN
+{"acl_url":{"process":"admin/process","setup":"admin/setup","dashboard":"admin/dashboard","team_dashboard":"admin/team-dashboard","my_dashboard":"admin/my-dashboard","analytics":"admin/analytics","reporting":"admin/reporting","promotion_list":"admin/promotion-list","bench_marking":"admin/bench-marking","team":"admin/team","team_snapshot":"admin/team-snapshot","salary_structure":"admin/salary-structure","dummy_my_dashboard":"admin/dummy-my-dashboard","dummy_team_dashboard":"admin/dummy-team-dashboard","dummy_admin_dashboard":"admin/dummy-admin-dashboard"},"userData":{"logo":"organization/logo/qa-logo-transsssss.png","id":"62c7f9a167e81a1e49b25a8c","fullname":"Atmax","orgId":"61b31ef589e4143c447c1977","username":"atmax@atmax.co","employee_code":""},"currency":"₹","username":"atmax@atmax.co","token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5Mzc3MTM3NjMyLCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6IjQ1NDAwNGNiLWMwODYtNDA3Zi04ZmU2LThlMTJjMWI3OTUwZiIsImlhdCI6MTY1OTM3NzEzNywiZXhwIjoxNjU5Mzg0MzM3fQ.qsmuqExXk9_S2_x-UHOX7fDY09sL5rWuP6PeDSXL1Dk","refreshToken":"80075342-49cb-4c84-8f18-6f2b1d2360ac"}
+
+
+
+# Created at 2022-08-01T23:35:43.995
+Unexpected IOException with stream: 23:35:43.994 [pool-1-thread-1] INFO  com.intuit.karate - [print] Response is eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5Mzc3MTM3NjMyLCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6IjQ1NDAwNGNiLWMwODYtNDA3Zi04ZmU2LThlMTJjMWI3OTUwZiIsImlhdCI6MTY1OTM3NzEzNywiZXhwIjoxNjU5Mzg0MzM3fQ.qsmuqExXk9_S2_x-UHOX7fDY09sL5rWuP6PeDSXL1Dk 
+
+
+# Created at 2022-08-01T23:35:44.140
+Unexpected IOException with stream: 23:35:44.139 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://qa-api.atmax.co/api/v1/role/auto_role/fields
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5Mzc3MTM3NjMyLCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6IjQ1NDAwNGNiLWMwODYtNDA3Zi04ZmU2LThlMTJjMWI3OTUwZiIsImlhdCI6MTY1OTM3NzEzNywiZXhwIjoxNjU5Mzg0MzM3fQ.qsmuqExXk9_S2_x-UHOX7fDY09sL5rWuP6PeDSXL1Dk
+2 > Host: qa-api.atmax.co
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+2 > Accept-Encoding: gzip,deflate
+
+
+
+
+# Created at 2022-08-01T23:35:46.236
+Unexpected IOException with stream: 23:35:46.235 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2093
+2 < 200
+2 < Server: nginx/1.12.2
+2 < Date: Mon, 01 Aug 2022 18:05:42 GMT
+2 < Content-Type: application/json;charset=UTF-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-Frame-Options: SAMEORIGIN
+2 < X-Content-Security-Policy: default-src 'self'
+2 < X-WebKit-CSP: default-src 'self'
+2 < x-frame-options: SAMEORIGIN
+2 < x-frame-options: SAMEORIGIN
+{"data":{"fields":["L1 Manager","HR Manager","Role1","Admin1","Role2","Admin2","Role3","Admin3","Role4","Admin4","Role5","Admin5"]},"message":"Successfully Executed","statusCode":200,"timestamp":"2022-08-01 06:05:42","errors":[]}
+
+
+
+# Created at 2022-08-01T23:35:46.324
+Unexpected IOException with stream: 23:35:46.321 [pool-1-thread-1] INFO  com.intuit.karate - [print] Response is [
+  "L1 Manager",
+  "HR Manager",
+  "Role1",
+  "Admin1",
+  "Role2",
+  "Admin2",
+  "Role3",
+  "Admin3",
+  "Role4",
+  "Admin4",
+  "Role5",
+  "Admin5"
+]
+ 
+
+
+# Created at 2022-08-01T23:35:46.339
+Unexpected IOException with stream: 23:35:46.337 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+3 > GET https://qa-api.atmax.co/api/v1/role/auto_role/field/Role3
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdG1heEBhdG1heC5jbyIsInJvbGVzIjpbeyJpZCI6IjYxYjMyN2E5ODllNDE0MDNiZGNkMjZmYSIsImNyZWF0ZWREYXRlIjoxNjM5MTMxMDQ5Mzc4LCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkFETUlOIiwiZW5hYmxlZCI6dHJ1ZSwiY3JpdGVyaWFzIjpbeyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzQsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6ImVtcGxveW1lbnRfc3RhdHVzIiwiY29uZGl0aW9uIjoiPSIsInZhbHVlcyI6WyJBY3RpdmUiXX0seyJpZCI6bnVsbCwiY3JlYXRlZERhdGUiOjE2NTMzMDQ5NDc2MzUsIm9yZ0lkIjpudWxsLCJ1cGRhdGVfdHJhY2tlcnMiOm51bGwsInBsYW5JZCI6bnVsbCwiY2FsZW5kYXJZZWFyIjpudWxsLCJuYW1lIjpudWxsLCJlbXBsb3llZV9jb2RlIjpudWxsLCJjYXRlZ29yeSI6bnVsbCwiY3JlYXRlZF9ieSI6bnVsbCwicG9wdWxhdGlvbklkIjpudWxsLCJjcml0ZXJpYSI6bnVsbCwiY29uZGl0aW9uIjpudWxsLCJ2YWx1ZXMiOlsiSW52YWxpZCBkYXRlIl19XSwiYnJhbmNoIjpudWxsLCJmaWVsZCI6bnVsbCwidHlwZSI6bnVsbH0seyJpZCI6IjYyYzdmNjkzODc1MjliNWQzNTk4NjE4NCIsImNyZWF0ZWREYXRlIjoxNjU5Mzc3MTM3NjMyLCJvcmdJZCI6IjYxYjMxZWY1ODllNDE0M2M0NDdjMTk3NyIsInVwZGF0ZV90cmFja2VycyI6W3sidXNlciI6ImF0bWF4QGF0bWF4LmNvIiwicm9sZSI6bnVsbCwidXBkYXRlZF9kYXRlIjoxNjUzMDM0OTQzNjM1LCJjb21tZW50cyI6bnVsbCwiZXhlY3V0aW9uX2ZvciI6bnVsbH0seyJ1c2VyIjoiYXRtYXhAYXRtYXguY28iLCJyb2xlIjpudWxsLCJ1cGRhdGVkX2RhdGUiOjE2NTMwMzUwMTM3ODcsImNvbW1lbnRzIjpudWxsLCJleGVjdXRpb25fZm9yIjpudWxsfSx7InVzZXIiOiJhdG1heEBhdG1heC5jbyIsInJvbGUiOm51bGwsInVwZGF0ZWRfZGF0ZSI6MTY1MzMwNDk0NzY2NCwiY29tbWVudHMiOm51bGwsImV4ZWN1dGlvbl9mb3IiOm51bGx9XSwicGxhbklkIjpudWxsLCJjYWxlbmRhclllYXIiOm51bGwsIm5hbWUiOm51bGwsImVtcGxveWVlX2NvZGUiOm51bGwsImNhdGVnb3J5IjpudWxsLCJjcmVhdGVkX2J5Ijoic3VwZXJhZG1pbkBhdG1heC5jbyIsInBvcHVsYXRpb25JZCI6bnVsbCwicm9sZSI6IkR1bW1teSIsImVuYWJsZWQiOnRydWUsImNyaXRlcmlhcyI6W3siaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM0LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOiJlbXBsb3ltZW50X3N0YXR1cyIsImNvbmRpdGlvbiI6Ij0iLCJ2YWx1ZXMiOlsiQWN0aXZlIl19LHsiaWQiOm51bGwsImNyZWF0ZWREYXRlIjoxNjUzMzA0OTQ3NjM1LCJvcmdJZCI6bnVsbCwidXBkYXRlX3RyYWNrZXJzIjpudWxsLCJwbGFuSWQiOm51bGwsImNhbGVuZGFyWWVhciI6bnVsbCwibmFtZSI6bnVsbCwiZW1wbG95ZWVfY29kZSI6bnVsbCwiY2F0ZWdvcnkiOm51bGwsImNyZWF0ZWRfYnkiOm51bGwsInBvcHVsYXRpb25JZCI6bnVsbCwiY3JpdGVyaWEiOm51bGwsImNvbmRpdGlvbiI6bnVsbCwidmFsdWVzIjpbIkludmFsaWQgZGF0ZSJdfV0sImJyYW5jaCI6bnVsbCwiZmllbGQiOm51bGwsInR5cGUiOm51bGx9XSwib3JnSWQiOiI2MWIzMWVmNTg5ZTQxNDNjNDQ3YzE5NzciLCJkZXZpY2VJZCI6IjQ1NDAwNGNiLWMwODYtNDA3Zi04ZmU2LThlMTJjMWI3OTUwZiIsImlhdCI6MTY1OTM3NzEzNywiZXhwIjoxNjU5Mzg0MzM3fQ.qsmuqExXk9_S2_x-UHOX7fDY09sL5rWuP6PeDSXL1Dk
+3 > Host: qa-api.atmax.co
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+3 > Accept-Encoding: gzip,deflate
+
+
+
+
+# Created at 2022-08-01T23:35:47.769
+Unexpected IOException with stream: 23:35:47.768 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1427
+3 < 405
+3 < Server: nginx/1.12.2
+3 < Date: Mon, 01 Aug 2022 18:05:43 GMT
+3 < Content-Length: 0
+3 < Connection: keep-alive
+3 < Allow: POST
+3 < X-Content-Type-Options: nosniff
+3 < X-XSS-Protection: 1; mode=block
+3 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+3 < Pragma: no-cache
+3 < Expires: 0
+3 < X-Frame-Options: SAMEORIGIN
+3 < X-Content-Security-Policy: default-src 'self'
+3 < X-WebKit-CSP: default-src 'self'
+
+
+
+
+# Created at 2022-08-01T23:35:47.776
+Unexpected IOException with stream: 23:35:47.775 [pool-1-thread-1] INFO  com.intuit.karate - [print] response is  
+
+
+# Created at 2022-08-01T23:35:50.130
+Unexpected IOException with stream: ---------------------------------------------------------
+feature: classpath:examples/users/users.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 7.3213
+---------------------------------------------------------
+
+
+# Created at 2022-08-01T23:35:50.140
+Unexpected IOException with stream: 
+
+
+# Created at 2022-08-01T23:35:50.150
+Unexpected IOException with stream: 23:35:50.149 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+
+
+# Created at 2022-08-01T23:35:50.189
+Unexpected IOException: 7,1,examples.ExamplesTest,testParallel,null,java.io.FileNotFoundException: target\005Ckarate-reports\005Cexamples.users.users.karate-json.txt (The system cannot find the file specified),null,java.io.FileNotFoundException: target\005Ckarate-reports\005Cexamples.users.users.karate-json.txt (The system cannot find the file specified),ExamplesTest.testParallel:14 \00BB Runtime java.io.FileNotFoundException: target\005Ck...,java.lang.RuntimeException: java.io.FileNotFoundException: target\005Ckarate-reports\005Cexamples.users.users.karate-json.txt (The system cannot find the file specified)\000A\0009at examples.ExamplesTest.testParallel(ExamplesTest.java:14)\000ACaused by: java.io.FileNotFoundException: target\005Ckarate-reports\005Cexamples.users.users.karate-json.txt (The system cannot find the file specified)\000A\0009at examples.ExamplesTest.testParallel(ExamplesTest.java:14)\000A
+
+
+# Created at 2022-08-01T23:35:50.195
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,examples.ExamplesTest,null,null,null
+
+
